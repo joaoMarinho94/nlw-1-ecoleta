@@ -1,9 +1,10 @@
 import express from 'express';
+import routes from './routes'
 
 const app = express();
 
-app.get('/users', (req, res) =>{
-  return res.status(200).json({ok: true});
-})
+app.use(express.json());
+
+app.use(routes);
 
 app.listen(3333);
