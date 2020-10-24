@@ -1,10 +1,10 @@
-import React from "react";
-import { FiLogIn } from "react-icons/fi";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { FiLogIn } from 'react-icons/fi';
+import { Link } from 'react-router-dom';
 
-import "./styles.css";
+import './styles.css';
 
-import logo from "../../assets/logo.svg";
+import logo from '../../assets/logo.svg';
 
 const Home = () => {
   return (
@@ -24,7 +24,7 @@ const Home = () => {
             <span>
               <FiLogIn />
             </span>
-            <strong>Cadastre um ponto de coleta</strong>
+            <strong>Cadastre um pronto de coleta</strong>
           </Link>
         </main>
       </div>
